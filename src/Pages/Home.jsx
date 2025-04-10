@@ -224,7 +224,7 @@ function Home() {
             <p>Loading jobs ...</p>
           </div>
         ) : filteredJobs.length === 0 ? (
-          <div className="text-center mt-5">
+          <div className="d-flex flex-col justify-content-center  align-items-center mx-auto  mt-5">
             <h4>No jobs found</h4>
             <p>Try adjusting your search or filters.</p>
           </div>

@@ -1,0 +1,211 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: none;
+  text-align: center;
+  background-color: #cccccc47;
+}
+
+.sidebar-title {
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.sidebar-items {
+  margin-top: 20px;
+}
+
+.sidebar-label-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.sidebar-label-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #f4f2f2;
+  border-radius: 50%;
+  border: 1px solid rgb(59, 59, 59);
+
+}
+
+.all {
+  background: linear-gradient(blue, crimson);
+}
+
+.sidebar-label-container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.sidebar-label-container input:checked ~ .checkmark {
+  background-color: #115264;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.sidebar-label-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.sidebar-label-container .checkmark:after {
+  top: 6.4px;
+  left: 6.4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: white;
+}
+
+.line {
+  margin-top: 3rem;
+  border-color: #f7f7f7;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding:2px;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+.read-the-docs {
+  color: #888;
+}
+
+.j-btn{
+  background-color: #115264;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  width: 6rem;
+  height: 2.5rem;
+}
+
+.j-btn:hover{
+  background-color: #119ec5;
+
+}
+
+.btn{
+  background-color: #115264;
+  border: none;
+}
+
+.btn:hover{
+  background-color: #119ec5;
+}
+
+.modal-content{
+  background-color: #115264;
+  
+}
+.job-description{
+  text-align: left;
+}
+.job-description .h3{
+  font-size: 1.5rem;
+}
+
+.apply-btn{
+  background-color: #74aab8;
+  border: none;
+  width:12rem;
+  color:rgb(58, 56, 56);
+  height: 3rem;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.apply-btn:hover{
+  background-color: #c2d8dc;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.form-container {
+  background-color: #115264;
+  color: white;
+  text-align: left;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 600px;
+  width: 100%;
+  height: 98%;
+}
+
+.form-container h3 {
+  text-align: center;
+}
+
+.form-btn{
+  background-color: #74aab8;
+  color: #171737;
+  border: none;
+  border-radius: 2px;
+  width: 8rem;
+  height: 2.6rem;
+}
+
+.form-btn:hover{
+  background-color: #119ec5;
+}
+
+.home{
+  width: 94vw;
+}
+
+.footer{
+  background-color: #115264;
+  color: white;
+}

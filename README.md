@@ -15,16 +15,23 @@ cd job-listing-app
 2. Install Dependencies
 Make sure you have Node.js installed. Then install the required packages:
 
-```npm install```
+```bash
+npm install
+```
+
 3. Set Up Environment Variables
 If you're using an environment file (optional), create a .env file and add the API URL:
 
-```VITE_JOB_API_URL=https://remotive.io/api/remote-jobs```
+```bash
+VITE_JOB_API_URL=https://remotive.io/api/remote-jobs
+```
 Or update the URL directly in your JOB_URL constant in the code.
 
 4. Run the App
 
-```npm run dev```
+```bash
+npm run dev
+```
 The app should now be running at: http://localhost:5173
 
 ### 📦 Features

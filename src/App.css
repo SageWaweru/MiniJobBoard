@@ -118,6 +118,7 @@
   border: none;
   width: 6rem;
   height: 2.5rem;
+  padding: 2px;
 }
 
 .j-btn:hover{

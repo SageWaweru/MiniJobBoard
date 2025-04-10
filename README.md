@@ -16,7 +16,8 @@ cd job-listing-app
 Make sure you have Node.js installed. Then install the required packages:
 
 ```bash
-npm install
+npm install react react-dom react-bootstrap bootstrap axios vite
+
 ```
 
 3. Set Up Environment Variables

@@ -8,8 +8,8 @@ Follow the steps below to set up and run the app locally.
 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/job-listing-app.git
-cd job-listing-app
+git clone https://github.com/SAgeWaweru/MiniJobBoard.git
+cd MiniJobBoard
 ```
 
 2. Install Dependencies
